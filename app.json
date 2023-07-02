@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WelbeX-expo",
-    "slug": "WelbeX-expo",
+    "name": "welbex-task-expo",
+    "slug": "welbex-task-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
