@@ -2,6 +2,10 @@
   {
     "id": "786090",
     "name": "Consalve Tranmer",
+    "map_coordinate": {
+      "latitude": 37.78825,
+      "longitude": -122.4652
+    },
     "current_address": "7950 Mccormick Hill",
     "phone": "(520) 3136894",
     "car_type": "Грузовой",
@@ -11,6 +15,10 @@
   {
     "id": "20473",
     "name": "Franky Thelwll",
+    "map_coordinate": {
+      "latitude": 37.77825,
+      "longitude": -122.4652
+    },
     "current_address": "12075 Debs Court",
     "phone": "(575) 1622794",
     "car_type": "Пассажирский",
@@ -20,6 +28,10 @@
   {
     "id": "53080",
     "name": "Hodge Trimnell",
+    "map_coordinate": {
+      "latitude": 37.78225,
+      "longitude": -122.4552
+    },
     "current_address": "37548 Spohn Street",
     "phone": "(967) 3607270",
     "car_type": "Спецтранспорт",
@@ -29,6 +41,10 @@
   {
     "id": "49616",
     "name": "Ralina Grote",
+    "map_coordinate": {
+      "latitude": 37.75825,
+      "longitude": -122.4152
+    },
     "current_address": "10 Haas Alley",
     "phone": "(968) 3301458",
     "car_type": "Грузовой",
@@ -38,6 +54,10 @@
   {
     "id": "14124",
     "name": "Wolf Pelman",
+    "map_coordinate": {
+      "latitude": 37.74825,
+      "longitude": -122.4452
+    },
     "current_address": "4 Merry Court",
     "phone": "(616) 6133751",
     "car_type": "Спецтранспорт",
@@ -47,6 +67,10 @@
   {
     "id": "38260",
     "name": "Enriqueta Kilmaster",
+    "map_coordinate": {
+      "latitude": 37.75825,
+      "longitude": -122.4252
+    },
     "current_address": "46 Weeping Birch Hill",
     "phone": "(871) 1865777",
     "car_type": "Пассажирский",
@@ -56,6 +80,10 @@
   {
     "id": "71406",
     "name": "Brandon Crozier",
+    "map_coordinate": {
+      "latitude": 37.76825,
+      "longitude": -122.4452
+    },
     "current_address": "28 Mariners Cove Avenue",
     "phone": "(729) 1545144",
     "car_type": "Грузовой",
@@ -65,6 +93,10 @@
   {
     "id": "019478",
     "name": "Morissa Sturror",
+    "map_coordinate": {
+      "latitude": 37.79825,
+      "longitude": -122.4852
+    },
     "current_address": "59303 Dottie Avenue",
     "phone": "(738) 2473790",
     "car_type": "Пассажирский",
@@ -74,6 +106,10 @@
   {
     "id": "63331",
     "name": "Sloane Pettett",
+    "map_coordinate": {
+      "latitude": 37.79825,
+      "longitude": -122.4852
+    },
     "current_address": "75 Northfield Trail",
     "phone": "(816) 7280148",
     "car_type": "Грузовой",
@@ -83,6 +119,10 @@
   {
     "id": "70304",
     "name": "Stephenie Foucher",
+    "map_coordinate": {
+      "latitude": 37.75825,
+      "longitude": -122.4252
+    },
     "current_address": "1 West Junction",
     "phone": "(757) 3388829",
     "car_type": "Спецтранспорт",
@@ -92,6 +132,10 @@
   {
     "id": "12551",
     "name": "Roselin Lebarree",
+    "map_coordinate": {
+      "latitude": 37.71825,
+      "longitude": -122.4752
+    },
     "current_address": "83 Grasskamp Avenue",
     "phone": "(873) 4331970",
     "car_type": "Пассажирский",
@@ -101,6 +145,10 @@
   {
     "id": "77506",
     "name": "Salomon Bleything",
+    "map_coordinate": {
+      "latitude": 37.79825,
+      "longitude": -122.4452
+    },
     "current_address": "29 Farragut Terrace",
     "phone": "(612) 4213614",
     "car_type": "Спецтранспорт",
@@ -110,6 +158,10 @@
   {
     "id": "95784",
     "name": "Betsy Cosans",
+    "map_coordinate": {
+      "latitude": 37.77825,
+      "longitude": -122.4752
+    },
     "current_address": "29 Caliangt Park",
     "phone": "(462) 6417661",
     "car_type": "Спецтранспорт",
@@ -119,6 +171,10 @@
   {
     "id": "67322",
     "name": "Mollee Abramov",
+    "map_coordinate": {
+      "latitude": 37.72825,
+      "longitude": -122.4552
+    },
     "current_address": "28128 Florence Trail",
     "phone": "(869) 5030499",
     "car_type": "Пассажирский",
@@ -128,6 +184,10 @@
   {
     "id": "570390",
     "name": "Virgie Gartell",
+    "map_coordinate": {
+      "latitude": 37.79825,
+      "longitude": -122.4352
+    },
     "current_address": "265 Monument Crossing",
     "phone": "(363) 4962933",
     "car_type": "Пассажирский",

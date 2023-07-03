@@ -1,6 +1,7 @@
 import { ScrollView, StyleSheet, Text, TouchableOpacity } from "react-native";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { UseContext } from "../hooks/Context";
 export const data = [
   {
     title: "Грузовой",
@@ -19,6 +20,13 @@ export const data = [
 export const FilterComponents = () => {
   const insets = useSafeAreaInsets();
   const [useData, setData] = useState(data);
+  const { selectFilter } = UseContext();
+
+  useEffect(() => {
+    const title = useData.filter((item) => item.isSelected);
+    // @ts-ignore
+    selectFilter(title[0]?.title ?? "ALL");
+  }, [useData]);
 
   const handleSelected = useCallback((index: number) => {
     setData((oldData) =>
@@ -42,6 +50,7 @@ export const FilterComponents = () => {
       {useData?.map((item, index) => {
         return (
           <TouchableOpacity
+            key={item.title.toString()}
             activeOpacity={0.8}
             onPress={() => handleSelected(index)}
             style={[styles.box, item.isSelected && styles.selected]}

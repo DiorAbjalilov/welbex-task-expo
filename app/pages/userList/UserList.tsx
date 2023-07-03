@@ -5,10 +5,11 @@ import {
   Text,
   TouchableOpacity,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import dataUser from "../../../data.json";
 import { Screens } from "../../constants/Screens";
+import { UseContext } from "../../hooks/Context";
 type UserInfoType = {
   id: string;
   name: string;
@@ -20,7 +21,18 @@ type UserInfoType = {
 };
 export const UserListScreen = () => {
   const navigate = useNavigation();
+  const { filter } = UseContext();
   const [userData, setUserData] = useState(dataUser);
+  useEffect(() => {
+    if (filter !== "ALL") {
+      setUserData(dataUser);
+      setUserData((oldData) =>
+        oldData.filter((item) => item.car_type === filter),
+      );
+    } else {
+      setUserData(dataUser);
+    }
+  }, [filter]);
 
   const navigateUserInfo = (user: UserInfoType) => {
     navigate.navigate(Screens.USERS_INFO_SCREEN, user);
@@ -31,6 +43,7 @@ export const UserListScreen = () => {
         {userData.map((user) => {
           return (
             <TouchableOpacity
+              key={user.id.toString()}
               onPress={() => navigateUserInfo(user)}
               activeOpacity={0.6}
               style={styles.content}

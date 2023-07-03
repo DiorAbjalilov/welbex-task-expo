@@ -1,7 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import * as React from "react";
 
-import { UserInfoScreen } from "../pages/userInfo/UserInfoScreen";
+import { UserInfoScreen } from "../screens/userInfo/UserInfoScreen";
 import { UserListScreen } from "../pages/userList/UserList";
 import { Screens } from "../constants/Screens";
 
